@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>Welcome, {{ username }}!</h2>
+
+    <div class="search-container">
+        <input type="text" id="instrumentInput" placeholder="Search for an instrument...">
+        <ul id="suggestions"></ul>
+    </div>
+
+
+    <a href="/logout">Logout</a>
+
+    <script src="/static/autocomplete.js"></script>
+</body>
+</html>
